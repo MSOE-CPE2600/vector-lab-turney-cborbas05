@@ -1,0 +1,8 @@
+# dependancy files
+*.d
+
+#object files
+*.o
+
+#the exe file
+calc
