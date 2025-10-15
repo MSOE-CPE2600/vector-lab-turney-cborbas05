@@ -1,23 +1,20 @@
-# Vector Calculator Project - Makefile
-
+# Simple Makefile for Vector Calculator
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c11 -MMD -MP
+CFLAGS = -Wall -Wextra -std=c11 -MMD
 TARGET = calc
 SRCS = calc.c vectors.c
 OBJS = $(SRCS:.c=.o)
-DEPS = $(SRCS:.c=.d)
+DEPS = $(OBJS:.o=.d)
 
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^
 
+-include $(DEPS)
+
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
--include $(DEPS)
-
 clean:
-	rm -f $(OBJS) $(DEPS) $(TARGET)
-
-rebuild: clean all
+	rm -f $(TARGET) $(OBJS) $(DEPS)
