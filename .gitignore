@@ -1,8 +1,8 @@
-# dependancy files
+# dependency files
 *.d
 
-#object files
+# object files
 *.o
 
-#the exe file
+# the exe file
 calc

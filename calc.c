@@ -6,6 +6,7 @@
  * Makefile / gcc -o calc calc.c vectors.c
  */
 
+
 #include <stdio.h>
 #include <string.h>
 #include "vectors.h"
