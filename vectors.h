@@ -1,6 +1,6 @@
 /* Filename: vectors.h
  * Author: Cameron Borbas
- * Date: 10/27/2025
+ * Date: 10/30/2025
  * Description: Header file for vectors.c,
  *      updated to support dynamic memory and file I/O
  */

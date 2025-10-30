@@ -1,6 +1,6 @@
 /* Filename: calc.c
  * Author: Cameron Borbas
- * Date: 10/27/2025
+ * Date: 10/30/2025
  * Description: Main file, takes user inputs and preforms
  *      requested function (List, clear, +, -, etc.)
  *      Updated for Lab 7 dynamic memory and file I/O

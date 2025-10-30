@@ -1,6 +1,6 @@
 /* Filename: vectors.c
  * Author: Cameron Borbas
- * Date: 10/27/2025
+ * Date: 10/30/2025
  * Description: All required functions are coded for
  *      each user input. (+, -, *, etc.)
  *      Updated for dynamic memory and file I/O
@@ -166,7 +166,7 @@ void load_vectors(const char *fname) {
             add_vector(name, v);
             loaded++;
         } else {
-            printf("Warning: skipped malformed line: %s", line);
+            printf("Warning: poorly formatted line. Skipping: %s", line);
         }
     }
 
