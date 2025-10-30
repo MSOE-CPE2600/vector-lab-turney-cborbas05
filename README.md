@@ -49,7 +49,7 @@
 >	- Incorperate a README.md file to your commit
 
 
-## How the PRogram uses Dynamic Memory
+## How the Program uses Dynamic Memory
  realloc
 >	- Lab starts at a capacity of 4
 >	- If at any point the number of vectors goes past, capacity is doubled
