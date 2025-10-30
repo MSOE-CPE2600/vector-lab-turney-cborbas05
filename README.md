@@ -16,6 +16,7 @@
  Compiling
 >	- run the command: **gcc -o calc calc.c vectors.c**
 >	- or run the make file with the command: **make**
+
  Running the program
 >	- W/o valgrind: **./calc**
 >	- W/ vagrind: **valgrind ./calc** 
