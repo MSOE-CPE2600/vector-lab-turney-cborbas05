@@ -1,5 +1,10 @@
 # Vector Calculator (Labs 5-7)
 
+* [Section 1](#section1)
+
+
+#Section1
+
 ## Lab 5 Implementations:
  Create a program that can be used to do the following: 
 >	- Add a vector to a list of set size
@@ -23,5 +28,5 @@
  Dynamic Memory 
 >	- Implement our code using dynamic memory for the list of vectors
 >	- File IO (Reading and writing .csv files)
-
-
+>	- Incorperate tags to your commit
+>	- Incorperate a README.md file to your commit

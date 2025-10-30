@@ -6,7 +6,7 @@
  *      Updated for Lab 7 dynamic memory and file I/O
  * Makefile / gcc -o calc calc.c vectors.c
  */
-
+ 
 #include <stdio.h>
 #include <string.h>
 #include "vectors.h"

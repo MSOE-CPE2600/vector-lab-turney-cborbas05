@@ -19,11 +19,10 @@ static int vector_capacity = 0;
 
 
 // Helper function to make sure there is enough space
-static void ensure_capacity()
-{
+static void ensure_capacity() {
     if (vector_count >= vector_capacity) {
         int new_capacity;
-
+ 
         if (vector_capacity == 0) {
             new_capacity = INITIAL_CAPACITY;
         } else {
@@ -177,8 +176,7 @@ void load_vectors(const char *fname) {
 
 
 // Saves all current vectors to a CSV file
-void save_vectors(const char *fname)
-{
+void save_vectors(const char *fname) {
     FILE *fp = fopen(fname, "w");
     if (!fp) {
         printf("Error: could not open file '%s' for writing.\n", fname);
