@@ -4,7 +4,7 @@
  * Description: Header file for vectors.c,
  *      updated to support dynamic memory and file I/O
  */
- 
+
 #ifndef VECTORS_H
 #define VECTORS_H
 

@@ -22,7 +22,7 @@ static int vector_capacity = 0;
 static void ensure_capacity() {
     if (vector_count >= vector_capacity) {
         int new_capacity;
- 
+
         if (vector_capacity == 0) {
             new_capacity = INITIAL_CAPACITY;
         } else {
